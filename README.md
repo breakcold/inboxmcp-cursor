@@ -2,15 +2,15 @@
 
 ![InboxMCP LinkedIn blue logo](assets/logo-linkedin.svg)
 
-Use the hosted LinkedIn tools and included skills to manage your inbox, read messages, research profiles, and prepare outreach. InboxMCP shows proposed replies in chat for approval before sending them.
+Use the hosted LinkedIn, WhatsApp, Telegram and Instagram tools and included skills to manage your inboxes, read messages, research profiles, and prepare outreach. InboxMCP shows proposed replies in chat for approval before sending them.
 
 ## Connect your account
 
-After this plugin is available in the marketplace, install InboxMCP and complete its OAuth sign-in in your browser. Connect your own LinkedIn account through InboxMCP, then ask the agent to check your account connection.
+After this plugin is available in the marketplace, install InboxMCP and complete its OAuth sign-in in your browser. Connect your own LinkedIn, WhatsApp, Telegram or Instagram accounts through InboxMCP, then ask the agent to check your account connection.
 
 The plugin connects to `https://inbox-mcp.com/mcp` over Streamable HTTP. It runs no local executable and contains no credentials. Use the browser sign-in flow. Do not paste passwords, cookies, or access tokens into chat.
 
-An InboxMCP account and a connected LinkedIn account are required. Users start with a trial and then need an active subscription for connected-account actions. Payment and subscription management happen on the InboxMCP website through Stripe.
+An InboxMCP account and at least one connected LinkedIn, WhatsApp, Telegram or Instagram account are required. Users start with a trial and then need an active subscription for connected-account actions. Payment and subscription management happen on the InboxMCP website through Stripe.
 
 ## Try the included workflows
 
@@ -18,7 +18,7 @@ An InboxMCP account and a connected LinkedIn account are required. Users start w
 - "Research a LinkedIn profile and draft a relevant introduction. Do not send it."
 - "Help me prepare LinkedIn outreach messages and connection requests for my approval."
 
-The `linkedin-inbox` skill reads conversations and drafts replies. The `linkedin-research` skill searches people and summarizes profiles. The `linkedin-outreach` skill sends approved messages and invitations, schedules paced batches, checks delivery results, and publishes approved text posts.
+The `inbox` skill lists conversations from every connected account, reads them, and drafts replies on any network. The `whatsapp-telegram-instagram` skill adds reactions, contact profiles, group members, and approved Instagram photo posts. The `linkedin-inbox` skill reads LinkedIn conversations and drafts replies. The `linkedin-research` skill searches people and summarizes profiles. The `linkedin-outreach` skill sends approved messages and invitations, schedules paced batches, checks delivery results, and publishes approved text posts.
 
 ## Understand the limits
 
